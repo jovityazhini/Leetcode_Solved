@@ -20,8 +20,6 @@ class Solution {
             j >= board[0].length || board[i][j] != word.charAt(index)) {
             return false;
         }
-
-        // Mark the current cell as visited
         char temp = board[i][j];
         board[i][j] = '#';
 
