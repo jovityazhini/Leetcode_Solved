@@ -17,7 +17,6 @@ class Solution {
             } else if (currentRow == numRows - 1) {
                 direction = -1;
             }
-
             currentRow += direction;
         }
         StringBuilder result = new StringBuilder();
