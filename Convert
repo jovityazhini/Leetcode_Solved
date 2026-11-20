@@ -10,7 +10,6 @@ class Solution {
         }
         int currentRow = 0;
         int direction = 1;
-
         for (char c : s.toCharArray()) {
             rows[currentRow].append(c);
 
