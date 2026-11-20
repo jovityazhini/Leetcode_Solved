@@ -23,7 +23,6 @@ class Solution {
                 break;
             }
             parts.add(part);
-
             backtrack(s, index + len, count + 1, parts, result);
 
             // Backtrack
