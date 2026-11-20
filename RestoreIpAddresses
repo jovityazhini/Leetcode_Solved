@@ -19,12 +19,9 @@ class Solution {
             if (part.length() > 1 && part.charAt(0) == '0') {
                 break;
             }
-
-            // Value must not exceed 255
             if (Integer.parseInt(part) > 255) {
                 break;
             }
-
             parts.add(part);
 
             backtrack(s, index + len, count + 1, parts, result);
