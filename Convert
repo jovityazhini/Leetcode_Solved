@@ -20,7 +20,6 @@ class Solution {
 
             currentRow += direction;
         }
-
         StringBuilder result = new StringBuilder();
 
         for (StringBuilder row : rows) {
