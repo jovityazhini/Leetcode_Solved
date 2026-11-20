@@ -6,7 +6,6 @@ class Solution {
         int area2 = (bx2 - bx1) * (by2 - by1);
         int overlapWidth = Math.max(0, Math.min(ax2, bx2) - Math.max(ax1, bx1));
         int overlapHeight = Math.max(0, Math.min(ay2, by2) - Math.max(ay1, by1));
-
         int overlapArea = overlapWidth * overlapHeight;
 
         // Total area = area1 + area2 - overlapping area
