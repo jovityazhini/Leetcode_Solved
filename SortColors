@@ -13,7 +13,6 @@ class Solution {
             else if (nums[mid] == 1) {
                 mid++;
             }
-
             else {
                 // Move 2 to the end
                 swap(nums, mid, high);
