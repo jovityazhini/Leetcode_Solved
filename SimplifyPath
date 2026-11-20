@@ -17,7 +17,6 @@ class Solution {
             }
         }
         StringBuilder result = new StringBuilder();
-
         for (String dir : stack) {
             result.append("/");
             result.append(dir);
