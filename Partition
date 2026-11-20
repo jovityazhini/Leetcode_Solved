@@ -13,7 +13,6 @@ class Solution {
                 greater.next = head;
                 greater = greater.next;
             }
-
             head = head.next;
         }
 
