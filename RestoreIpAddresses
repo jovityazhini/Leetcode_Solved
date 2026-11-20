@@ -13,8 +13,6 @@ class Solution {
             }
             return;
         }
-
-        // Try taking 1, 2, or 3 digits
         for (int len = 1; len <= 3; len++) {
 
             if (index + len > s.length()) break;
