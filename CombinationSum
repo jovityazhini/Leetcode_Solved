@@ -11,7 +11,6 @@ class Solution {
             result.add(new ArrayList<>(current));
             return;
         }
-
         if (target < 0) return;
 
         for (int i = index; i < candidates.length; i++) {
