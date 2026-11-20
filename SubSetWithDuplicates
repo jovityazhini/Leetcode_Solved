@@ -14,7 +14,6 @@ class Solution {
             if (i > start && nums[i] == nums[i - 1]) {
                 continue;
             }
-
             current.add(nums[i]);
 
             backtrack(nums, i + 1, current, result);
