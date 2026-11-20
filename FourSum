@@ -14,13 +14,10 @@ class Solution {
 
                     long sum = (long) nums[i] + nums[j]
                              + nums[left] + nums[right];
-
                     if (sum == target) {
-
                         result.add(Arrays.asList(
                             nums[i], nums[j], nums[left], nums[right]
                         ));
-
                         left++;
                         right--;
 
