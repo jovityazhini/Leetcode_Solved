@@ -18,7 +18,7 @@ class Solution {
             }
         }
 
-        // Convert array into string
+        
         StringBuilder sb = new StringBuilder();
 
         for (int digit : result) {
