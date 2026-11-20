@@ -12,8 +12,6 @@ class Solution {
                     stack.pop();
                 }
             }
-
-            // Valid directory name
             else {
                 stack.push(part);
             }
