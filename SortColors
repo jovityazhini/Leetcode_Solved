@@ -6,7 +6,6 @@ class Solution {
         int high = nums.length - 1;
         while (mid <= high) {
             if (nums[mid] == 0) {
-                // Move 0 to the beginning
                 swap(nums, low, mid);
                 low++;
                 mid++;
