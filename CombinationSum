@@ -12,7 +12,6 @@ class Solution {
             return;
         }
         if (target < 0) return;
-
         for (int i = index; i < candidates.length; i++) {
             current.add(candidates[i]);
 
