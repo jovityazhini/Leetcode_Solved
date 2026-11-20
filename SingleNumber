@@ -9,5 +9,6 @@ public int singleNumber(int[] nums)
                 count++;
             }
         }
-        
+        if(count%3!=0){
+            result!=(1<<i);
 
