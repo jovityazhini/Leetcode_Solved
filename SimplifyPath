@@ -7,8 +7,6 @@ class Solution {
             if (part.equals("") || part.equals(".")) {
                 continue;
             }
-
-            // Move to parent directory
             else if (part.equals("..")) {
                 if (!stack.isEmpty()) {
                     stack.pop();
