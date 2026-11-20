@@ -12,7 +12,7 @@ class Solution {
             return;
         }
 
-        // Add opening bracket
+        
         if (open < n) {
             current.append('(');
             backtrack(result, current, open + 1, close, n);
