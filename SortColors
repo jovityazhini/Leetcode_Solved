@@ -10,7 +10,6 @@ class Solution {
                 low++;
                 mid++;
             }
-
             else if (nums[mid] == 1) {
                 // 1 is already in the correct region
                 mid++;
