@@ -12,7 +12,6 @@ class Solution {
         int direction = 1;
         for (char c : s.toCharArray()) {
             rows[currentRow].append(c);
-
             if (currentRow == 0) {
                 direction = 1;
             } else if (currentRow == numRows - 1) {
