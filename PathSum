@@ -21,8 +21,6 @@ class Solution {
             dfs(root.left, targetSum, current, result);
             dfs(root.right, targetSum, current, result);
         }
-
-        // Backtrack
         current.remove(current.size() - 1);
     }
 }
