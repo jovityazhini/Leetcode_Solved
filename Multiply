@@ -24,5 +24,3 @@ class Solution {
             sb.append(digit);
         }
         return sb.toString();
-    }
-}
