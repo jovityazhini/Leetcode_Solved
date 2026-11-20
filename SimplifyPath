@@ -4,7 +4,6 @@ class Solution {
         Stack<String> stack = new Stack<>();
         String[] parts = path.split("/");
         for (String part : parts) {
-            // Ignore empty strings and current directory
             if (part.equals("") || part.equals(".")) {
                 continue;
             }
