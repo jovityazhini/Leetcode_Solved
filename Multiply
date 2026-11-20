@@ -18,7 +18,6 @@ class Solution {
             }
         }
         StringBuilder sb = new StringBuilder();
-
         for (int digit : result) {
             if (sb.length() == 0 && digit == 0) {
                 continue;
