@@ -14,11 +14,7 @@ class Solution {
         if (target < 0) return;
         for (int i = index; i < candidates.length; i++) {
             current.add(candidates[i]);
-
-           
             backtrack(candidates, target - candidates[i], i, current, result);
-
-           
             current.remove(current.size() - 1);
         }
     }
