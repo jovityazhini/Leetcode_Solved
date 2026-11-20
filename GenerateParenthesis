@@ -11,8 +11,6 @@ class Solution {
             result.add(current.toString());
             return;
         }
-
-        
         if (open < n) {
             current.append('(');
             backtrack(result, current, open + 1, close, n);
