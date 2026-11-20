@@ -9,7 +9,6 @@ class Solution {
             int width = right - left;
             int area = h * width;
             maxWater = Math.max(maxWater, area);
-           
             if (height[left] < height[right]) {
                 left++;
             } else {
