@@ -21,8 +21,6 @@ class Solution {
             result.append("/");
             result.append(dir);
         }
-
-        // If stack is empty, return root
         return result.length() == 0 ? "/" : result.toString();
     }
 }
