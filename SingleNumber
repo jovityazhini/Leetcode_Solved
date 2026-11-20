@@ -13,4 +13,7 @@ public int singleNumber(int[] nums)
             result!=(1<<i);
         }
     }
+return result;
+}
+}
 
