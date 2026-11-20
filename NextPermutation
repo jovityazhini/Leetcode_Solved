@@ -20,7 +20,6 @@ class Solution {
         nums[i] = nums[j];
         nums[j] = temp;
     }
-
     void reverse(int[] nums, int left, int right) {
         while (left < right) {
             swap(nums, left, right);
