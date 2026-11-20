@@ -12,7 +12,6 @@ class Solution {
         }
         return false;
     }
-
     boolean dfs(char[][] board, String word, int i, int j, int index) {
 
         // All characters are found
