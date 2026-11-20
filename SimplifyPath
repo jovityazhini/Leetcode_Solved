@@ -16,8 +16,6 @@ class Solution {
                 stack.push(part);
             }
         }
-
-        // Build the canonical path
         StringBuilder result = new StringBuilder();
 
         for (String dir : stack) {
