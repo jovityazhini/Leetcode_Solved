@@ -5,7 +5,6 @@ class Solution {
         backtrack(s, 0, 0, new ArrayList<>(), result);
         return result;
     }
-
     void backtrack(String s, int index, int count,
                    List<String> parts, List<String> result) {
 
