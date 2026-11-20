@@ -5,7 +5,6 @@ class Solution {
         ListNode greaterDummy = new ListNode(0);
         ListNode less = lessDummy;
         ListNode greater = greaterDummy;
-
         while (head != null) {
             if (head.val < x) {
                 less.next = head;
