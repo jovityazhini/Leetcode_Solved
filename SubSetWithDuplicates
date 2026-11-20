@@ -15,7 +15,6 @@ class Solution {
                 continue;
             }
             current.add(nums[i]);
-
             backtrack(nums, i + 1, current, result);
 
             current.remove(current.size() - 1);
