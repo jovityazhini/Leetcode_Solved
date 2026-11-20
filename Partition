@@ -17,7 +17,6 @@ class Solution {
         }
         greater.next = null;
         less.next = greaterDummy.next;
-
         return lessDummy.next;
     }
 }
