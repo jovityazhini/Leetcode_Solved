@@ -26,11 +26,9 @@ class Solution {
                             right--;
                         }
                     }
-
                     else if (sum < target) {
                         left++;
                     }
-
                     else {
                         right--;
                     }
