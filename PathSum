@@ -5,7 +5,6 @@ class Solution {
         dfs(root, targetSum, new ArrayList<>(), result);
         return result;
     }
-
     void dfs(TreeNode root, int targetSum,
              List<Integer> current,
              List<List<Integer>> result) {
