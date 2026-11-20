@@ -1,9 +1,7 @@
 import java.util.*;
 class Solution {
     public List<String> restoreIpAddresses(String s) {
-
         List<String> result = new ArrayList<>();
-
         backtrack(s, 0, 0, new ArrayList<>(), result);
 
         return result;
