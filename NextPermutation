@@ -13,8 +13,6 @@ class Solution {
             }
             swap(nums, i, j);
         }
-
-        
         reverse(nums, i + 1, n - 1);
     }
 
