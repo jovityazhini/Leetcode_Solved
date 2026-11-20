@@ -1,6 +1,7 @@
 import java.util.*;
 class Solution {
     public int countPrimes(int n) {
+        int i;
         boolean[] isPrime = new boolean[n];
         Arrays.fill(isPrime, true);
         if (n <= 2) {
