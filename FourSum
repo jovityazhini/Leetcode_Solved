@@ -11,7 +11,6 @@ class Solution {
                 int left = j + 1;
                 int right = n - 1;
                 while (left < right) {
-
                     long sum = (long) nums[i] + nums[j]
                              + nums[left] + nums[right];
                     if (sum == target) {
@@ -20,8 +19,6 @@ class Solution {
                         ));
                         left++;
                         right--;
-
-                        // Skip duplicate third elements
                         while (left < right && nums[left] == nums[left - 1]) {
                             left++;
                         }
