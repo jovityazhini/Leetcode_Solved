@@ -15,10 +15,10 @@ class Solution {
         for (int i = index; i < candidates.length; i++) {
             current.add(candidates[i]);
 
-            // Use the same index because a number can be reused
+           
             backtrack(candidates, target - candidates[i], i, current, result);
 
-            // Backtrack: remove the last added number
+           
             current.remove(current.size() - 1);
         }
     }
