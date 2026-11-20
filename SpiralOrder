@@ -11,8 +11,6 @@ class Solution {
                 result.add(matrix[top][i]);
             }
             top++;
-
-            // 2. Traverse from top to bottom
             for (int i = top; i <= bottom; i++) {
                 result.add(matrix[i][right]);
             }
