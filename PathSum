@@ -3,7 +3,6 @@ class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> result = new ArrayList<>();
         dfs(root, targetSum, new ArrayList<>(), result);
-
         return result;
     }
 
