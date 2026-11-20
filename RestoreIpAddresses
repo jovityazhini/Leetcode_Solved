@@ -7,8 +7,6 @@ class Solution {
     }
     void backtrack(String s, int index, int count,
                    List<String> parts, List<String> result) {
-
-        // If 4 parts are formed
         if (count == 4) {
             if (index == s.length()) {
                 result.add(String.join(".", parts));
