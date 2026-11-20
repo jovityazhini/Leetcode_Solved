@@ -11,7 +11,6 @@ class Solution {
         if (root == null) {
             return;
         }
-
         current.add(root.val);
         targetSum -= root.val;
 
